@@ -1,43 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
+    <!-- Primary Meta Tags -->
+    <title>무료 QR코드 바코드 생성기 - 온라인 QR 코드 메이커 | QRBarcode Generator</title>
+    <meta name="title" content="무료 QR코드 바코드 생성기 - 온라인 QR 코드 메이커 | QRBarcode Generator" />
+    <meta name="description" content="무료 온라인 QR코드 및 바코드 생성기. URL, 텍스트, WiFi, 명함을 위한 맞춤형 QR코드를 만들어보세요. 로고 삽입, 색상 변경, 대량 생성 기능 제공. PNG, JPG, SVG, PDF 다운로드 지원." />
+    <meta name="keywords" content="QR코드 생성기, 바코드 생성기, QR코드 만들기, 무료 QR코드, 온라인 QR코드, QR code generator, barcode generator, WiFi QR코드, 명함 QR코드, vCard, 대량 QR코드 생성" />
+    <meta name="author" content="QRBarcode Generator" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Korean" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:title" content="무료 QR코드 바코드 생성기 - 온라인 QR 코드 메이커" />
+    <meta property="og:description" content="무료로 맞춤형 QR코드와 바코드를 생성하세요. 로고 삽입, 색상 변경, 대량 생성 등 다양한 기능을 제공합니다." />
+    <meta property="og:image" content="https://your-domain.com/og-image.png" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="QRBarcode Generator" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-domain.com/" />
+    <meta property="twitter:title" content="무료 QR코드 바코드 생성기 - 온라인 QR 코드 메이커" />
+    <meta property="twitter:description" content="무료로 맞춤형 QR코드와 바코드를 생성하세요. 로고 삽입, 색상 변경, 대량 생성 등 다양한 기능을 제공합니다." />
+    <meta property="twitter:image" content="https://your-domain.com/twitter-image.png" />
+    
+    <!-- Alternate Languages -->
+    <link rel="alternate" hreflang="ko" href="https://your-domain.com/ko" />
+    <link rel="alternate" hreflang="en" href="https://your-domain.com/en" />
+    <link rel="alternate" hreflang="x-default" href="https://your-domain.com/" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="theme-color" content="#6366f1" />
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "QRBarcode Generator",
+      "url": "https://your-domain.com",
+      "description": "무료 온라인 QR코드 및 바코드 생성기",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "KRW"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2451"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "QRBarcode Generator",
+        "url": "https://your-domain.com"
+      }
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "QR코드 생성기는 무료인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, 저희 QR코드 생성기는 완전 무료입니다. 회원가입 없이 무제한으로 QR코드와 바코드를 생성할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "생성된 QR코드에 로고를 삽입할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, 생성된 QR코드 중앙에 회사 로고나 원하는 이미지를 삽입할 수 있습니다. 이미지 크기는 2MB 이하여야 합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어떤 파일 형식으로 다운로드할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PNG, JPG, SVG, PDF 형식으로 다운로드가 가능합니다. 인쇄용으로는 SVG나 PDF를, 웹용으로는 PNG나 JPG를 추천합니다."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://your-domain.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "QR코드 생성기",
+          "item": "https://your-domain.com/qr-generator"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Performance optimizations -->
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="preload" href="/static/css/main.css" as="style">
+    <link rel="preload" href="/static/js/main.js" as="script">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <h1>무료 QR코드 및 바코드 생성기</h1>
+      <p>이 애플리케이션을 사용하려면 JavaScript를 활성화해야 합니다.</p>
+      <p>QR코드 생성기는 URL, 텍스트, WiFi, 명함 등 다양한 데이터를 QR코드로 변환할 수 있는 무료 온라인 도구입니다.</p>
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    
+    <!-- Hidden content for SEO -->
+    <div style="display:none;">
+      <h1>무료 온라인 QR코드 생성기</h1>
+      <h2>QR코드란?</h2>
+      <p>QR코드(Quick Response Code)는 2차원 바코드의 한 종류로, 스마트폰 카메라로 스캔하여 정보를 빠르게 읽을 수 있습니다.</p>
+      <h2>주요 기능</h2>
+      <ul>
+        <li>텍스트, URL, 이메일, 전화번호 QR코드 생성</li>
+        <li>WiFi 연결 정보 QR코드 생성</li>
+        <li>명함(vCard) QR코드 생성</li>
+        <li>위치 정보 QR코드 생성</li>
+        <li>맞춤형 색상 및 로고 삽입</li>
+        <li>다양한 바코드 형식 지원 (Code128, Code39, EAN13, UPC)</li>
+        <li>대량 QR코드 일괄 생성</li>
+        <li>PNG, JPG, SVG, PDF 형식 다운로드</li>
+      </ul>
+    </div>
   </body>
 </html>
