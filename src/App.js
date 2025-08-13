@@ -5,9 +5,9 @@ import { saveAs } from 'file-saver';
 import jsPDF from 'jspdf';
 import { 
   Download, QrCode, Barcode, Settings, Eye, 
-  Link, Mail, Phone, Wifi, MessageSquare, FileText, 
+  FileText, 
   Upload, History, Trash2, Copy, Check, AlertCircle,
-  Grid, X, Plus, Image, Globe
+  Grid, X, Image, Globe
 } from 'lucide-react';
 
 // Import translations and styles

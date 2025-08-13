@@ -1,0 +1,48 @@
+[33mcommit 1150ac8d8519ab46574fe1e68524927c97f0de00[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: haeseong <haeseong050321@gmail.com>
+Date:   Wed Aug 13 16:59:42 2025 +0900
+
+    downgrade_react_version
+
+[33mcommit bdbf042d41f2d389acf95ac68e2eda4defe46a7c[m
+Merge: c20d58b 3121580
+Author: haeseong <haeseong050321@gmail.com>
+Date:   Wed Aug 13 16:57:17 2025 +0900
+
+    Merge branch 'main' of https://github.com/sunes26/QRCODE-GENERATOR
+
+[33mcommit 3121580b2a6881103a6ababebc3940fdef1cbdc6[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: sunes26 <85713817+sunes26@users.noreply.github.com>
+Date:   Wed Aug 13 16:48:45 2025 +0900
+
+    Delete netlify.toml
+
+[33mcommit c20d58be0df9be4513cdf564f507efc55c99d3f6[m
+Author: haeseong <haeseong050321@gmail.com>
+Date:   Wed Aug 13 16:47:34 2025 +0900
+
+    downgrade react_version
+
+[33mcommit 619ae10fe5654043e8bd1d667f398f9a53b847b9[m
+Author: sunes26 <85713817+sunes26@users.noreply.github.com>
+Date:   Wed Aug 13 16:39:19 2025 +0900
+
+    Create netlify.toml
+
+[33mcommit 8edefb930a7a1d404fb3825976bc06600cf0d96e[m
+Author: sunes26 <85713817+sunes26@users.noreply.github.com>
+Date:   Wed Aug 13 16:26:54 2025 +0900
+
+    Delete README.md
+
+[33mcommit 219bd1feccfac5adc1f408639055f5b92f5c70f8[m
+Author: haeseong <haeseong050321@gmail.com>
+Date:   Wed Aug 13 16:24:24 2025 +0900
+
+    upload file
+
+[33mcommit c30468fbe12425659bdada241355a5a44f80c598[m
+Author: haeseong <haeseong050321@gmail.com>
+Date:   Wed Aug 13 13:45:10 2025 +0900
+
+    Initialize project using Create React App
